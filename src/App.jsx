@@ -49,7 +49,7 @@ class App extends Component {
   }
 
   componentDidUpdate(prevProps, prevState) {
-    //prevState - это то, что записано в стейт до обновления. prevProps - это то, что изменилось при введении или удалении
+
     console.log('App componentDidUpdate');
 
     if (prevState.contacts !== this.state.contacts) {
